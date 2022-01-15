@@ -1,0 +1,7 @@
+<h1>yannlandry.photography</h1>
+
+<ul>
+    {{ range $Link := .Navigation.Links }}
+        <li><a href="{{ $Link.Link }}">{{ $Link.Title }}</a></li>
+    {{ end }}
+</ul>
