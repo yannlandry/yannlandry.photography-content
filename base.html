@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ .WindowTitle }}</title>
+    <meta charset="utf-8" />
+    {{ range $Stylesheet := .Stylesheets }}
+        <link rel="stylesheet" type="text/css" href="{{ $Stylesheet }}" />
+    {{ end }}
+</head>
+
+<body>
+    <header>
+        yannlandry.photography
+        <nav>
+            <ul>
+                {{ range $Link := .Navigation.Links }}
+                    <li><a href="{{ $Link.Link }}">{{ $Link.Title }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+    </header>
+
+    {{ template "content" .Content }}
+
+</body>
+
+</html>
