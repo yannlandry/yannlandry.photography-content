@@ -2,9 +2,9 @@
   Slug: second-blog-post
   Keywords: [technology, travel, photography]
   Summary: This is a summary of my even very much more exciting second blog post.
-  Path: blog/second.md
+  Path: second.md
 - Title: A first blog post
   Slug: first-blog-post
   Keywords: [other, photography]
   Summary: This is a summary of my very exciting first blog post.
-  Path: blog/first.md
+  Path: first.md
