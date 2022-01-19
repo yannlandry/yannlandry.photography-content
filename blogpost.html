@@ -1,0 +1,9 @@
+<h1>{{ .Post.Title }}</h1>
+
+<p>
+    {{ range $Keyword := .Post.Keywords }}
+        <a href="http://localhost:8080/blog/keyword/{{ $Keyword }}">{{ $Keyword }}</a>
+    {{ end }}
+</p>
+
+<p>{{ .Post.Content }}</p>

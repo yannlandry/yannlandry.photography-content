@@ -5,3 +5,7 @@
         <li><a href="{{ $Link.Link }}">{{ $Link.Title }}</a></li>
     {{ end }}
 </ul>
+
+{{ range $Image := .Images }}
+    <p>{{ $Image }}</p>
+{{ end }}
