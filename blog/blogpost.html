@@ -1,13 +1,13 @@
 {{ define "content" }}
 
-<h1>{{ .Post.Title }}</h1>
+<h1>{{ .Title }}</h1>
 
 <p>
-    {{ range $Keyword := .Post.Keywords }}
-        <a href="http://localhost:8080/blog/keyword/{{ $Keyword }}">{{ $Keyword }}</a>
+    {{ range $Keyword := .Keywords }}
+        <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}">{{ $Keyword }}</a>
     {{ end }}
 </p>
 
-<p>{{ .Post.Content }}</p>
+<p>{{ .Content }}</p>
 
 {{ end }}

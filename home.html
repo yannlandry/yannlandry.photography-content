@@ -3,7 +3,7 @@
 <h1>yannlandry.photography</h1>
 
 {{ range $Image := .Images }}
-    <p>{{ $Image }}</p>
+    <p>{{ staticURL $Image }}</p>
 {{ end }}
 
 {{ end }}

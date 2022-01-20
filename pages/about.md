@@ -7,3 +7,11 @@ Sed vestibulum nulla ut lacus lacinia gravida. Phasellus eget nisi sed metus rut
 ## Subtitle
 
 Quisque justo mi, egestas at commodo fermentum, placerat at nisl. Donec eu tristique justo. Morbi nisl nisl, placerat vel diam eu, scelerisque sagittis dolor. Donec at aliquet mi. Vivamus eget accumsan odio, vel pulvinar nulla. Aenean consectetur, neque ac vulputate facilisis, neque mauris porta mi, nec ultricies leo felis nec mi. Etiam vehicula enim nibh, in sodales neque vestibulum at. Maecenas non condimentum elit. Vivamus porta, ante vitae laoreet viverra, augue felis dignissim nibh, vitae facilisis nibh nisi sit amet mi. In erat dolor, convallis sit amet odio et, tempus luctus ante.
+
+[Check out the blog](blog)
+
+[Resume](http://hosted.yannlandry.com/YannLandry2019.pdf)
+
+![Norway](images/norway.jpg)
+
+![Ship Rock](https://mdg.imgix.net/assets/images/shiprock.jpg)

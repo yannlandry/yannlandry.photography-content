@@ -11,11 +11,11 @@
 
 <body>
     <header>
-        <a href="{{ .Home }}">yannlandry.photography</a>
+        <a href="{{ baseURL "" }}">yannlandry.photography</a>
         <nav>
             <ul>
                 {{ range $Link := .Navigation.Links }}
-                    <li><a href="{{ $Link.Link }}">{{ $Link.Title }}</a></li>
+                    <li><a href="{{ baseURL $Link.Link }}">{{ $Link.Title }}</a></li>
                 {{ end }}
             </ul>
         </nav>
