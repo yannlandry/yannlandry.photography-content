@@ -3,21 +3,34 @@
 
 <head>
     <title>{{ .WindowTitle }}</title>
+
     <meta charset="utf-8" />
-    {{ range $Stylesheet := .Stylesheets }}
-        <link rel="stylesheet" type="text/css" href="{{ $Stylesheet }}" />
-    {{ end }}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="https://use.typekit.net/nko1glb.css" />
+    <link rel="stylesheet" type="text/css" href="{{ staticURL "/fonts/dripicons-v2.css" }}" />
+    <link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/reset.css" }}" />
+    <link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/main.css" }}" />
+    {{ template "stylesheets" }}
+    {{ define "stylesheets" }}{{ end }}
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8K1JL8YTTQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-8K1JL8YTTQ');
+    </script>
 </head>
 
 <body>
     <header>
-        <a href="{{ baseURL "" }}">yannlandry.photography</a>
+        <a href="{{ baseURL "" }}"><strong>yannlandry</strong>.photography</a>
         <nav>
-            <ul>
-                {{ range $Link := .Navigation.Links }}
-                    <li><a href="{{ baseURL $Link.Link }}">{{ $Link.Title }}</a></li>
-                {{ end }}
-            </ul>
+            {{ range $Link := .Navigation.Links }}
+                <a href="{{ baseURL $Link.Link }}">{{ $Link.Title }}</a>
+            {{ end }}
         </nav>
     </header>
 

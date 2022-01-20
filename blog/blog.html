@@ -1,29 +1,28 @@
 {{ define "content" }}
 
-<h1>Blog</h1>
+<article>
 
-<p>
+    <h1>Blog</h1>
+
     {{ $ActiveKeyword := .ActiveKeyword }}
-    {{ if (ne $ActiveKeyword "") }}
-        <strong><a href="{{ baseURL "/blog/keyword" }}/{{ .ActiveKeyword }}">{{ .ActiveKeyword }}</a></strong>
-    {{ end }}
-    {{ range $Keyword, $Posts := .Keywords }}
-        {{ if (ne $ActiveKeyword $Keyword) }}
-            <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}">{{ $Keyword }}</a>
-        {{ end }}
-    {{ end }}
-</p>
-
-{{ range $Post := .Posts }}
-    <h2><a href="{{ baseURL "/blog" }}/{{ $Post.Slug }}">{{ $Post.Title }}</a></h2>
-
-    <p>
-        {{ range $Keyword := $Post.Keywords }}
-            <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}">{{ $Keyword }}</a>
+    <p {{ if (ne $ActiveKeyword "") }}class="active-keyword"{{ end }}>
+        {{ range $Keyword, $Posts := .Keywords }}
+            <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}" class="keyword {{ if (eq $ActiveKeyword $Keyword) }}active{{ end }}">{{ $Keyword }}</a>
         {{ end }}
     </p>
 
-    <p>{{ $Post.Summary }}</p>
-{{ end }}
+    {{ range $Post := .Posts }}
+        <h2><a href="{{ baseURL "/blog" }}/{{ $Post.Slug }}">{{ $Post.Title }}</a></h2>
+
+        <p>{{ $Post.Summary }}</p>
+
+        <p class="smaller">
+            {{ range $Keyword := $Post.Keywords }}
+                <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}" class="keyword">{{ $Keyword }}</a>
+            {{ end }}
+        </p>
+    {{ end }}
+
+</article>
 
 {{ end }}

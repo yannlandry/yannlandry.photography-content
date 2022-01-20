@@ -1,13 +1,33 @@
 {{ define "content" }}
 
-<h1>{{ .Title }}</h1>
+<article>
 
-<p>
-    {{ range $Keyword := .Keywords }}
-        <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}">{{ $Keyword }}</a>
-    {{ end }}
-</p>
+    <h1>{{ .Title }}</h1>
+    <p class="summary">{{ .Summary }}</p>
 
-<p>{{ .Content }}</p>
+    <p>{{ .Content }}</p>
+
+    <p>
+        {{ range $Keyword := .Keywords }}
+            <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}" class="keyword">{{ $Keyword }}</a>
+        {{ end }}
+    </p>
+
+    <div id="disqus_thread"></div>
+
+</article>
+
+<script>
+    var disqus_config = function () {
+        this.page.url = "https://yannlandry.photography/blog/{{ .Slug }}";
+        this.page.identifier = "{{ .Slug }}";
+    };
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://yannlandry-photography.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
 
 {{ end }}

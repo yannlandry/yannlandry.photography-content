@@ -1,10 +1,15 @@
-- Title: A second blog post
-  Slug: second-blog-post
-  Keywords: [technology, travel, photography]
+- Title: How to capture lightning using the Lightning Trigger
+  Slug: lightning-trigger-tutorial
+  Keywords: [gear, tutorial]
   Summary: This is a summary of my even very much more exciting second blog post.
-  Path: second.md
-- Title: A first blog post
-  Slug: first-blog-post
-  Keywords: [other, photography]
+  Path: lightning-trigger-tutorial.md
+- Title: A foodie's guide to Banff National Park
+  Slug: banff-food-guide
+  Keywords: [travel]
   Summary: This is a summary of my very exciting first blog post.
-  Path: first.md
+  Path: banff-food-guide.md
+- Title: What's in my bag
+  Slug: whats-in-my-bag
+  Keywords: [gear]
+  Summary: A list of the equipment I carry when photographing around the world.
+  Path: whats-in-my-bag.md

@@ -1,9 +1,15 @@
+{{ define "stylesheets" }}
+<link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/home.css" }}" />
+{{ end }}
+
 {{ define "content" }}
 
-<h1>yannlandry.photography</h1>
-
-{{ range $Image := .Images }}
-    <p>{{ staticURL $Image }}</p>
-{{ end }}
+<div class="slideshow">
+    <div>
+        <img src="{{ staticURL "images/norway.jpg" }}" />
+        <img src="{{ staticURL "images/crawford.jpg" }}" />
+        <img src="{{ staticURL "images/yosemite.jpg" }}" />
+    </div>
+</div>
 
 {{ end }}
