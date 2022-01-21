@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" type="text/css" href="https://use.typekit.net/nko1glb.css" />
-    <link rel="stylesheet" type="text/css" href="{{ staticURL "/fonts/dripicons-v2.css" }}" />
+    <link rel="stylesheet" type="text/css" href="{{ staticURL "/fonts/fonts.css" }}" />
     <link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/reset.css" }}" />
     <link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/main.css" }}" />
     {{ template "stylesheets" }}
@@ -36,6 +36,21 @@
 
     {{ template "content" .Content }}
 
+    <footer>
+        <div class="social">
+            <a href="https://instagram.com/yannlandry.photography" class="plus" target="_blank">i</a>
+            <a href="https://www.flickr.com/photos/yannlandry" target="_blank">n</a>
+            <a href="https://www.linkedin.com/in/yannlandry/" target="_blank">i</a>
+        </div>
+    </footer>
+
+    {{ template "scripts" }}
+    {{ define "scripts" }}{{ end }}
+
 </body>
 
 </html>
+
+{{ define "date" }}
+    <time title="{{ plainDate . }}" datetime="{{ formatDate . }}">{{ prettyDate . }}</time>
+{{ end }}

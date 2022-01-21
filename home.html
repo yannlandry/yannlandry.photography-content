@@ -4,12 +4,32 @@
 
 {{ define "content" }}
 
-<div class="slideshow">
-    <div>
-        <img src="{{ staticURL "images/norway.jpg" }}" />
-        <img src="{{ staticURL "images/crawford.jpg" }}" />
-        <img src="{{ staticURL "images/yosemite.jpg" }}" />
+<div id="slideshow">
+    <div data-background="{{ staticURL "images/yosemite.webp" }}">
+        <span>Yosemite National Park</span>
+    </div>
+    <div data-background="{{ staticURL "images/norway.webp" }}">
+        <span>Aurora Borealis over Norway</span>
+    </div>
+    <div data-background="{{ staticURL "images/bowlake.webp" }}">
+        <span>Banff National Park</span>
+    </div>
+    <div data-background="{{ staticURL "images/puffin.webp" }}">
+        <span>The Atlantic puffin</span>
+    </div>
+    <div data-background="{{ staticURL "images/emerald.webp" }}">
+        <span>Yoho National Park</span>
+    </div>
+    <div data-background="{{ staticURL "images/wonderpass.webp" }}">
+        <span>Banff National Park</span>
+    </div>
+    <div style="background-image: url('{{ staticURL "images/crawford.webp" }}')">
+        <span>Supercell over Nebraska</span>
     </div>
 </div>
 
+{{ end }}
+
+{{ define "scripts" }}
+<script type="text/javascript" src="{{ staticURL "/scripts/slideshow.js" }}"></script>
 {{ end }}

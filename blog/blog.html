@@ -1,28 +1,42 @@
 {{ define "content" }}
 
-<article>
+<main>
 
-    <h1>Blog</h1>
+    <div class="normal">
+        <h1>Blog</h1>
 
-    {{ $ActiveKeyword := .ActiveKeyword }}
-    <p {{ if (ne $ActiveKeyword "") }}class="active-keyword"{{ end }}>
-        {{ range $Keyword, $Posts := .Keywords }}
-            <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}" class="keyword {{ if (eq $ActiveKeyword $Keyword) }}active{{ end }}">{{ $Keyword }}</a>
-        {{ end }}
-    </p>
-
-    {{ range $Post := .Posts }}
-        <h2><a href="{{ baseURL "/blog" }}/{{ $Post.Slug }}">{{ $Post.Title }}</a></h2>
-
-        <p>{{ $Post.Summary }}</p>
-
-        <p class="smaller">
-            {{ range $Keyword := $Post.Keywords }}
-                <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}" class="keyword">{{ $Keyword }}</a>
+        {{ $ActiveKeyword := .ActiveKeyword }}
+        <p {{ if (ne $ActiveKeyword "") }}class="active-keyword"{{ end }}>
+            {{ range $Keyword, $Posts := .Keywords }}
+                <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}" class="keyword {{ if (eq $ActiveKeyword $Keyword) }}active{{ end }}">{{ $Keyword }}</a>
             {{ end }}
         </p>
+    </div>
+
+    {{ range $Post := .Posts }}
+        <article class="preview">
+            {{ if $Post.Image }}
+                <p>
+                    <a href="{{ baseURL "/blog" }}/{{ $Post.Slug }}">
+                        <img src="{{ staticURL $Post.Image }}" alt="{{ $Post.Title }}" />
+                    </a>
+                </p>
+            {{ end }}
+
+            <h2><a href="{{ baseURL "/blog" }}/{{ $Post.Slug }}">{{ $Post.Title }}</a></h2>
+            <p>{{ $Post.Summary }}</p>
+
+            <p class="published smaller">
+                <span class="keywords">
+                    {{ range $Keyword := $Post.Keywords }}
+                        <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}" class="keyword">{{ $Keyword }}</a>
+                    {{ end }}
+                </span>
+                Published {{ template "date" $Post.Date }}
+            </p>
+        </article>
     {{ end }}
 
-</article>
+</main>
 
 {{ end }}

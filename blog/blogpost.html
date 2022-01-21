@@ -1,21 +1,40 @@
 {{ define "content" }}
 
-<article>
+<main>
+    <article>
 
-    <h1>{{ .Title }}</h1>
-    <p class="summary">{{ .Summary }}</p>
+        <h1>{{ .Title }}</h1>
+        <p class="summary">{{ .Summary }}</p>
 
-    <p>{{ .Content }}</p>
-
-    <p>
-        {{ range $Keyword := .Keywords }}
-            <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}" class="keyword">{{ $Keyword }}</a>
+        {{ if .Image }}
+            <p><img src="{{ staticURL .Image }}" alt="{{ .Title }}" /></p>
         {{ end }}
-    </p>
 
-    <div id="disqus_thread"></div>
+        <p>{{ .Content }}</p>
 
-</article>
+        <p class="published">
+            <span class="keywords">
+                {{ range $Keyword := .Keywords }}
+                    <a href="{{ baseURL "/blog/keyword" }}/{{ $Keyword }}" class="keyword">{{ $Keyword }}</a>
+                {{ end }}
+            </span>
+            Published {{ template "date" .Date }}
+        </p>
+
+        <section class="social">
+            {{ $URL := baseURL (concat "/blog/" .Slug) }}
+            <a href="https://www.facebook.com/share.php?u={{ $URL }}" class="facebook" target="_blank">f</a>
+            <a href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ $URL }}" class="twitter" target="_blank">l</a>
+            <a href="http://pinterest.com/pin/create/button/?url={{ $URL }}" class="pinterest plus" target="_blank">p</a>
+            <a href="mailto:?subject={{ .Title }}&body={{ $URL }}" class="email plus" target="_blank">m</a>
+        </section>
+
+        <section>
+            <div id="disqus_thread"></div>
+        <section>
+
+    </article>
+</main>
 
 <script>
     var disqus_config = function () {
