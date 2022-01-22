@@ -2,7 +2,7 @@
 
 `class:summary`Integer placerat quam ac tellus cursus semper. Maecenas non iaculis purus, et pellentesque orci. Praesent euismod posuere risus, eget congue dui porttitor eget. Integer nec vehicula orci. Cras ornare molestie molestie. Vivamus faucibus turpis vitae quam fringilla euismod. Pellentesque nec laoreet ipsum. Sed eros neque, dictum commodo iaculis eu, eleifend quis mi. Nulla volutpat vel augue et pharetra. Maecenas tempor aliquet varius. Suspendisse ut ante et ipsum elementum varius eget sit amet massa.
 
-![Emerald Lake](iamges/emerald-1800.webp)
+![Emerald Lake](images/emerald-1800.webp)
 
 `class:caption`Cilantro Cafe and Emerald Lake Lodge
 

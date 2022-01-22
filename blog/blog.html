@@ -3,7 +3,7 @@
 <main>
 
     <div class="normal">
-        <h1>Blog</h1>
+        <h1><a href="{{ baseURL "/blog" }}">Blog</a></h1>
 
         {{ $ActiveKeyword := .ActiveKeyword }}
         <p {{ if (ne $ActiveKeyword "") }}class="active-keyword"{{ end }}>
