@@ -1,20 +1,21 @@
-- Title: How to capture lightning using the Lightning Trigger
-  Slug: lightning-trigger-tutorial
+- Title: How to photograph lightning using the Lightning Trigger
+  Slug: how-to-photograph-lightning
   Keywords: [gear, tutorial]
-  Image: images/lightning.jpg
+  Image: images/badlands-1800.webp
   Summary: Proin vehicula orci a auctor consequat. Curabitur lobortis erat eget suscipit aliquet. Vivamus tellus ipsum, dapibus in mauris nec, aliquam ultricies nibh. Vestibulum purus felis, accumsan et tempus id, accumsan vitae turpis. Donec orci nunc, dignissim eget tempor ac, laoreet eu ex. Vivamus eget tristique nisi, finibus ultricies lorem. Aenean rutrum metus vitae nulla venenatis, in accumsan diam vulputate. Praesent ac dui quam.
   Date: 2022-01-20
-  Path: lightning-trigger-tutorial.md
+  Path: how-to-photograph-lightning.md
 - Title: A foodie's guide to Banff National Park and the Canadian Rockies
   Slug: best-restaurants-banff-canadian-rockies
-  Keywords: [travel]
-  Image: images/emerald.jpg
+  Keywords: [travel, food]
+  Image: images/emerald-1800.webp
   Summary: Integer placerat quam ac tellus cursus semper. Maecenas non iaculis purus, et pellentesque orci. Praesent euismod posuere risus, eget congue dui porttitor eget. Integer nec vehicula orci. Cras ornare molestie molestie. Vivamus faucibus turpis vitae quam fringilla euismod. Pellentesque nec laoreet ipsum. Sed eros neque, dictum commodo iaculis eu, eleifend quis mi. Nulla volutpat vel augue et pharetra. Maecenas tempor aliquet varius. Suspendisse ut ante et ipsum elementum varius eget sit amet massa.
   Date: 2022-01-01
   Path: best-restaurants-banff-canadian-rockies.md
-- Title: What's in my bag
-  Slug: whats-in-my-bag
-  Keywords: [gear]
+- Title: New website + blog
+  Slug: new-website-blog
+  Keywords: [other]
+  Image: images/glacierpoint-1800.webp
   Summary: Donec tincidunt erat eu viverra sollicitudin. Fusce et ligula ipsum. Mauris semper ut eros et pharetra. Maecenas vel lobortis elit. Suspendisse tempor felis condimentum, scelerisque lectus non, venenatis leo. Nullam nulla nunc, semper nec aliquet vitae, vulputate id lorem. In vel enim sit amet sem euismod viverra sit amet vitae massa.
   Date: 2019-12-15
-  Path: whats-in-my-bag.md
+  Path: new-website-blog.md

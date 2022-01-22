@@ -1,3 +1,11 @@
+# A foodie's guide to Banff National Park and the Canadian Rockies
+
+`class:summary`Integer placerat quam ac tellus cursus semper. Maecenas non iaculis purus, et pellentesque orci. Praesent euismod posuere risus, eget congue dui porttitor eget. Integer nec vehicula orci. Cras ornare molestie molestie. Vivamus faucibus turpis vitae quam fringilla euismod. Pellentesque nec laoreet ipsum. Sed eros neque, dictum commodo iaculis eu, eleifend quis mi. Nulla volutpat vel augue et pharetra. Maecenas tempor aliquet varius. Suspendisse ut ante et ipsum elementum varius eget sit amet massa.
+
+![Emerald Lake](iamges/emerald-1800.webp)
+
+`class:caption`Cilantro Cafe and Emerald Lake Lodge
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim rhoncus fringilla. Fusce pharetra, erat ut feugiat ullamcorper, purus elit varius sapien, nec convallis dui enim vel tortor. Curabitur consequat aliquam turpis, in efficitur risus iaculis ac. Vestibulum viverra finibus ex, et gravida nibh porttitor vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam consectetur, turpis id varius imperdiet, sem erat tempus nunc, non tincidunt tellus mauris quis neque. Donec maximus, dolor eget dictum finibus, nibh sem iaculis lacus, ac sodales urna velit facilisis felis. Nulla eget lacus scelerisque, vulputate lectus vitae, mattis lectus. Vivamus scelerisque felis eu diam porta vulputate. Vivamus quam libero, sollicitudin at libero quis, laoreet porttitor nisi.
 
 `class:wide`![Crawford Supercell](images/crawford-3840.webp)

@@ -1,3 +1,6 @@
 - WindowTitle: About
   Slug: about
   Path: about.md
+- WindowTitle: Test
+  Slug: test
+  Path: test.md
