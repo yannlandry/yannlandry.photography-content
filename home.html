@@ -1,5 +1,5 @@
 {{ define "stylesheets" }}
-<link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/home.css" }}" />
+<link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/home.css" }}?{{ lastRestart }}" />
 {{ end }}
 
 {{ define "content" }}
@@ -31,5 +31,5 @@
 {{ end }}
 
 {{ define "scripts" }}
-<script type="text/javascript" src="{{ staticURL "/scripts/slideshow.js" }}"></script>
+<script type="text/javascript" src="{{ staticURL "/scripts/slideshow.js" }}?{{ lastRestart }}"></script>
 {{ end }}

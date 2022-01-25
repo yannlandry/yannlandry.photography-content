@@ -10,7 +10,7 @@
             <p><img src="{{ staticURL .Image }}" alt="{{ .Title }}" /></p>
         {{ end }}
 
-        <p>{{ .Content }}</p>
+        {{ .Content }}
 
         <p class="published">
             <span class="keywords">
@@ -30,23 +30,13 @@
         </section>
 
         <section>
-            <div id="disqus_thread"></div>
-        <section>
+            <div id="fb-root"></div>
+            <div class="fb-comments" data-href="{{ baseURL "/blog"}}/{{ .Slug }}" data-width="100%" data-numposts="5" data-lazy="true"></div>
+        </section>
 
     </article>
 </main>
 
-<script>
-    var disqus_config = function () {
-        this.page.url = "{{ baseURL "/blog" }}/{{ .Slug }}";
-        this.page.identifier = "{{ .Slug }}";
-    };
-    (function() {
-    var d = document, s = d.createElement('script');
-    s.src = 'https://yannlandry-photography.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
+<script async="async" defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0&appId=5458375057513231&autoLogAppEvents=1" nonce="9KIDPm00"></script>
 
 {{ end }}

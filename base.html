@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" type="text/css" href="https://use.typekit.net/nko1glb.css" />
-    <link rel="stylesheet" type="text/css" href="{{ staticURL "/fonts/fonts.css" }}" />
-    <link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/reset.css" }}" />
-    <link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/main.css" }}" />
+    <link rel="stylesheet" type="text/css" href="{{ staticURL "/fonts/fonts.css" }}?{{ lastRestart }}" />
+    <link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/reset.css" }}?{{ lastRestart }}" />
+    <link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/main.css" }}?{{ lastRestart }}" />
     {{ template "stylesheets" }}
     {{ define "stylesheets" }}{{ end }}
 

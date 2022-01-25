@@ -77,3 +77,7 @@ Vestibulum ac tellus porttitor, fringilla purus vitae, dictum neque. Curabitur u
 ###### Heading 6
 
 Nunc sagittis nulla turpis, vel accumsan nulla semper sed. Aliquam ut sapien a sapien bibendum aliquam a faucibus orci. Sed eu diam non augue tristique blandit. Aliquam pretium, lectus in porta tempus, nisi nisi commodo elit, sed mattis tellus magna at nunc. In nec finibus neque, nec condimentum purus. Vivamus mattis enim sit amet libero suscipit, vitae aliquet velit imperdiet. Maecenas egestas ligula ac nisi suscipit, vel eleifend lorem malesuada. Ut vestibulum dapibus risus, et consequat tortor tincidunt vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed varius massa id erat finibus semper. Sed et ipsum porttitor, suscipit ligula id, aliquet metus. Phasellus ac faucibus mi.
+
+[Internal link](/blog/new-website-blog)
+
+[External link](https://github.com/yannlandry/yannlandry.photography)
