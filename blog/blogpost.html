@@ -1,3 +1,27 @@
+{{ define "title" }}<title>{{ .WindowTitle }}</title>{{ end }}
+
+{{ define "meta" }}
+    <meta name="title" content="{{ .Title }}" />
+    <meta name="description" content="{{ .Summary }}" />
+
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{ .Summary }}" />
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="https://www.facebook.com/yann.landry.94" />
+    <meta property="article:published_time" content="{{ formatDate .Date }}" />
+    {{ if .Image }}<meta property="og:image" content="{{ staticURL .Image }}" />
+    {{ else }}<meta property="og:image" content="{{ staticURL "/images/ogimage.webp" }}" />{{ end }}
+    <meta property="og:url" content="{{ baseURL "/blog" }}/{{ .Slug }}" />
+
+    <meta name="twitter:title" content="{{ .Title }}" />
+    <meta name="twitter:description" content="{{ .Summary }}" />
+    <meta name="twitter:type" content="article" />
+    {{ if .Image }}<meta name="twitter:image" content="{{ staticURL .Image }}" />
+    {{ else }}<meta name="twitter:image" content="{{ staticURL "/images/ogimage.webp" }}" />{{ end }}
+    <meta name="twitter:url" content="{{ baseURL "/blog" }}/{{ .Slug }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+{{ end }}
+
 {{ define "content" }}
 
 <main>

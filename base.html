@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>{{ .WindowTitle }}</title>
+    {{ template "title" .Content }}
+    {{ define "title" }}<title>Yann Landry Photography</title>{{ end }}
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {{ template "meta" .Content }}
+    {{ define "meta" }}
+        <meta name="title" content="Yann Landry Photography" />
+        <meta name="description" content="Photography portfolio and website for Yann Landry." />
+
+        <meta property="og:title" content="Yann Landry Photography" />
+        <meta property="og:description" content="Photography portfolio and website for Yann Landry." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="{{ staticURL "/images/ogimage.webp" }}" />
+        <meta property="og:url" content="{{ baseURL "" }}" />
+
+        <meta name="twitter:title" content="Yann Landry Photography" />
+        <meta name="twitter:description" content="Photography portfolio and website for Yann Landry." />
+        <meta name="twitter:type" content="website" />
+        <meta name="twitter:image" content="{{ staticURL "/images/ogimage.webp" }}" />
+        <meta name="twitter:url" content="{{ baseURL "" }}" />
+        <meta name="twitter:card" content="summary_large_image" />
+    {{ end }}
+
+    <!-- Common meta tags -->
+    <meta name="author" content="Yann Landry" />
+    <meta name="robots" content="index,follow" />
+
+    <meta property="og:site_name" content="yannlandry.photography" />
+    <meta property="og:locale" content="en_CA" />
+
+    <meta name="twitter:site_name" content="yannlandry.photography" />
+    <meta name="twitter:locale" content="en_CA" />
+    <meta name="twitter:creator" content="@LandryYann" />
 
     <link rel="stylesheet" type="text/css" href="https://use.typekit.net/nko1glb.css" />
     <link rel="stylesheet" type="text/css" href="{{ staticURL "/fonts/fonts.css" }}?{{ lastRestart }}" />
@@ -13,15 +44,7 @@
     <link rel="stylesheet" type="text/css" href="{{ staticURL "/styles/main.css" }}?{{ lastRestart }}" />
     {{ template "stylesheets" }}
     {{ define "stylesheets" }}{{ end }}
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8K1JL8YTTQ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-8K1JL8YTTQ');
-    </script>
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ baseURL "/images" }}/favicon.png" />
 </head>
 
 <body>
@@ -46,6 +69,15 @@
 
     {{ template "scripts" }}
     {{ define "scripts" }}{{ end }}
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-8K1JL8YTTQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-8K1JL8YTTQ');
+    </script>
 
 </body>
 
