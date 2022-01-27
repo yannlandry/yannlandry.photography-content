@@ -38,7 +38,7 @@ Playing Wordle just a few times made it clear that the best way to progress forw
 
 In the field of artificial intelligence, there is a general approach for most problems; we use a search space with all possible actions and decisions, and pick the most advantageous of those actions according to a predefined set of criteria.
 
-In this case, the search space is the list of all accepted 5-letter words. And since some letters occur more frequently than others, we pick the word with the most common letters&mdash;the criterion&mdash;as our next guess/action. Words that are no longer possible answers are discarded, thus reducing the search space, until (hopefully) only one word remains, that word being the answer to the puzzle.
+In this case, the search space is the list of all accepted 5-letter words. And since some letters occur more frequently than others, we pick the word with the most common letters—the criterion—as our next guess/action. Words that are no longer possible answers are discarded, thus reducing the search space, until (hopefully) only one word remains, that word being the answer to the puzzle.
 
 In Wordle 219, the first two guesses cover enough critical letters to reduce the set of possible answers to just one after 2 iterations. Although the puzzle seemed to confuse humans a great deal, for a computer program, it's an _easy_ problem.
 
