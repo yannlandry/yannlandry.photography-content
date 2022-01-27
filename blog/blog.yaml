@@ -1,7 +1,7 @@
 - Title: I built an intelligent program that plays Wordle and beats it 93% of the time
   Slug: wordle-intelligent-solver
   Keywords: [programming, other]
-  Image: https://wordle.yannlandry.com/ogimage.png
+  Image: images/wordlesolver.webp
   Summary: While many procrastinated by attempting to solve Wordle puzzles, I procrastinated by attempting to build an intelligent program that solves Wordle puzzles for me. I devised a set of simple strategies and it worked surprisingly well, and now you can use the tool online.
   Date: 2022-01-27
   Path: wordle-intelligent-solver.md
