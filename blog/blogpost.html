@@ -31,7 +31,7 @@
         <p class="summary">{{ .Summary }}</p>
 
         {{ if .Image }}
-            <p><img src="{{ staticURL .Image }}" alt="{{ .Title }}" /></p>
+            <p class="image"><img src="{{ staticURL .Image }}" alt="{{ .Title }}" /></p>
         {{ end }}
 
         {{ .Content }}

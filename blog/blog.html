@@ -18,7 +18,7 @@
     {{ range $Post := .Posts }}
         <article class="preview">
             {{ if $Post.Image }}
-                <p>
+                <p class="image">
                     <a href="{{ baseURL "/blog" }}/{{ $Post.Slug }}">
                         <img src="{{ staticURL $Post.Image }}" alt="{{ $Post.Title }}" />
                     </a>
