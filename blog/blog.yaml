@@ -1,14 +1,21 @@
+- Title: 10 days of winter landscape and aurora photography in Iceland
+  Slug: iceland-winter-road-trip
+  Keywords: [travel, photography]
+  Image: images/blog/iceland-road-trip/icecave-1800.webp
+  Summary: Report of a 10-day winter roadtrip across southern Iceland, with tips and tricks, food recommendations, and a few photography spots.
+  Date: 2022-04-30
+  Path: iceland-winter-road-trip.md
 - Title: I built an intelligent program that plays Wordle and beats it 93% of the time
   Slug: wordle-intelligent-solver
   Keywords: [programming, other]
-  Image: images/wordlesolver.webp
+  Image: images/blog/wordle-solver/wordlesolver.webp
   Summary: While many procrastinated by attempting to solve Wordle puzzles, I procrastinated by attempting to build an intelligent program that solves Wordle puzzles for me. I devised a set of simple strategies and it worked surprisingly well, and now you can use the tool online.
   Date: 2022-01-27
   Path: wordle-intelligent-solver.md
 - Title: New website + blog
   Slug: new-website-blog
   Keywords: [other]
-  Image: images/glacierpoint-1800.webp
+  Image: images/blog/new-blog/glacierpoint-1800.webp
   Summary: I've started a small website to collect photography, stories, tips, tutorials, notes and thoughts. Here, I explain a little bit the thought process behind the building and designing of this site.
   Date: 2022-01-21
   Path: new-website-blog.md

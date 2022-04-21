@@ -1,6 +1,6 @@
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim rhoncus fringilla. Fusce pharetra, erat ut feugiat ullamcorper, purus elit varius sapien, nec convallis dui enim vel tortor. Curabitur consequat aliquam turpis, in efficitur risus iaculis ac. Vestibulum viverra finibus ex, et gravida nibh porttitor vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam consectetur, turpis id varius imperdiet, sem erat tempus nunc, non tincidunt tellus mauris quis neque. Donec maximus, dolor eget dictum finibus, nibh sem iaculis lacus, ac sodales urna velit facilisis felis. Nulla eget lacus scelerisque, vulputate lectus vitae, mattis lectus. Vivamus scelerisque felis eu diam porta vulputate. Vivamus quam libero, sollicitudin at libero quis, laoreet porttitor nisi.
 
-`class:wide`![Crawford Supercell](images/crawford-3840.webp)
+`class:wide`![Crawford Supercell](images/slideshow/crawford-3840.webp)
 
 `class:caption`The “Crawford Mothership” near Crawford, Nebraska, on 6 June 2020.
 
@@ -10,7 +10,7 @@ Quisque nulla lorem, vehicula quis tempor sed, sollicitudin vitae magna. Aliquam
 
 > Curabitur dui nisl, efficitur sed lectus ac, tempus convallis erat. Vestibulum nisi eros, mattis in cursus id, convallis eget risus. Morbi nisi sapien, blandit a sagittis non, vulputate et sapien.
 
-`class:full`![Yosemite Sunset](images/yosemite-3840.webp)
+`class:full`![Yosemite Sunset](images/slideshow/yosemite-3840.webp)
 
 `class:caption`A spectacular spring sunset at Yosemite National Park in May 2019.
 
