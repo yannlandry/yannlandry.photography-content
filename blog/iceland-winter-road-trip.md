@@ -10,21 +10,21 @@ My approach to trip planning generally involves building a list of locations to 
 
 `class:medium image`![Map of Iceland with saved locations](images/blog/iceland-road-trip/icelandmap.webp)
 
-From there, I pick 2 to 4 main locations, or “bases”, where I'll stay. Some people prefer moving to a new location every night as they explore the country, but I like getting to know my locations better, and I especially hate packing and unpacking everything every day, dealing with early morning shoots and early check-ins, and never having time to breathe a little. In Iceland, we stayed in 3 locations: 3 nights in Reykjavík, 4 nights in Höfn, and 3 nights in Vík.
+From there, I pick 2 to 4 main locations, or “bases”, where I'll stay. Some people prefer moving to a new location every night as they explore the country, but I like getting to know my locations better, and I especially hate packing and unpacking everything every day, dealing with early morning shoots and early check-outs, and never having time to breathe a little. In Iceland, we stayed in 3 locations: 3 nights in Reykjavík, 4 nights in Höfn, and 3 nights in Vík.
 
 ## Arriving in Iceland
 
 If you're flying into Iceland from North America, which is where I'm located, your flight will probably land at Keflavík Airport in the early morning around 07:00, or earlier. Some people will sleep on the flight and be reasonably rested on arrival, but I just don't sleep on planes, and besides, it was only 23:00 in my local time zone (Pacific Standard Time) when I landed.
 
-This being said, I was also _not_ going to try to stay awake until the evening, or even until check in time at the hotel. My strategy for this situation is to book a hotel for the night _before_, so the room is ready in the early morning on arrival. If you want to feel safe about this, just advise the hotel ahead that you'll be arriving _very_ late.
+This being said, I was also _not_ going to try to stay awake until the evening, or even until check-in time at the hotel. My strategy in this situation is to book a hotel for the night _before_, so the room is ready in the early morning on arrival. If you want to feel safe about this, just advise the hotel ahead that you'll be arriving _very_ late.
 
 ### Car rentals
 
-There are several ways to travel around Iceland. Many people opt for organized tours, but I've always rented cars. Car rentals are quite... particular in Iceland, and so for the moment I will refrain from discussing this topic as it probably deserves an entire blog post on its own. Rental companies typically offer a complex web of expensive insurance packages on rentals, different from insurance in other countries, and it's often very difficult to know what options to choose. Even today, I'm still generally not fully confident.
+There are several ways to travel around Iceland. Many people opt for organized tours, but I've always rented cars. Car rentals are quite... particular in Iceland, and so for the moment I will refrain from discussing this topic as it probably deserves an entire blog post on its own. Rental companies typically offer a complex web of expensive insurance packages on rentals, different from insurance in other countries, and it's often very difficult to know what options to choose. It's a system that still confuses me, even after several rentals.
 
 ## Reykjavík
 
-Our first stay was in Reykjavík, the capital and largest city of Iceland, home to about two thirds of the country's population. Some people will prefer heading into the countryside immediately, but I enjoy staying near the airport and near a major city for a few nights in the beginning. It's a good way to beat jet lag, take it easy, and go over any last-minute preparations. If something is missing, or something broke, it can be replaced or fixed. For example, my friend picked up an extra battery for his drone at the [local DJI store](https://www.djireykjavik.is/). And, if the rental car is having issues, it's a good time to request repairs, or a replacement.
+Our first stay was in Reykjavík, the capital and largest city of Iceland, home to about two thirds of the country's population. Some people will prefer heading into the countryside immediately, but I enjoy staying near the airport and near a major city for a few nights in the beginning. It's a good way to beat jet lag, take it easy, and go over any last-minute preparations. If something is missing, or something broke, it can be replaced or fixed. For example, my friend picked up an extra battery for his drone at the [local DJI store](https://www.djireykjavik.is/).
 
 I also use Reykjavík as a “central” base to many photography locations in the area. Granted, those locations still require a fair amount of driving, but we won't be able to reach them from any of the other bases in the trip.
 
@@ -71,9 +71,9 @@ When in Höfn, we stayed at the **[Aurora Cabins](https://auroracabins.is)**.
 
 ### Vestrahorn
 
-[Vestrahorn](https://guidetoiceland.is/travel-iceland/drive/vestrahorn) is an extremely popular location to visit for photographers that make it to this part of Iceland. It's not uncommon to see pictures of that location on tourism ads promoting the country.
+[Vestrahorn](https://guidetoiceland.is/travel-iceland/drive/vestrahorn) is an extremely popular location to visit for photographers that make it to this part of Iceland. It's not uncommon to see pictures of its jagged peaks on tourism ads promoting the country.
 
-People generally drive to Stokksnes (entry fee: ISK900/CAD8/USD7 per person), the peninsula that offers the best views of Vestrahorn. From there, sand dunes, rocks, a large black sand beach, and in the summer, lupins, can be used as foregrounds for landscape photography. I personally love using the waves crashing against the beach in my foreground.
+People generally drive to Stokksnes (entry fee: ISK900/CAD8/USD7 per person), the peninsula to the south that offers the best views of Vestrahorn. From there, sand dunes, rocks, a large black sand beach, and in the summer, lupins, can be used as foregrounds for landscape photography. I personally love using the waves crashing against the beach in my foreground.
 
 `class:full`![Stokksnes and Vestrahorn](images/blog/iceland-road-trip/vestrahorn-wave-3840.webp)
 
@@ -99,6 +99,8 @@ Here again, a wide-angle lens is recommended, and my 18mm lens was just perfect 
 
 `class:image`![Self-portrait in an ice cave](images/blog/iceland-road-trip/icecave-1800.webp)
 
+`class:caption`Trying to sneak a self-portrait in between the hordes of tourists.
+
 It's generally not a good idea to go visit the cave by yourself as the road there requires a more than capable vehicle; you should instead book one of the tours that depart Jökulsárlón aboard large custom-built 4x4 vans. Most tours include close to two hours of round-trip driving (not recommended for those suffering from motion sickness), a short hike, and up to an hour in the cave. There are several operators to choose from; we opted to go with [Arctic Adventures](https://adventures.com/iceland/tours/activities/ice-caves/crystal-ice-cave-jokulsarlon/), but most operators run very similar itineraries in very similar vehicles.
 
 ### Diamond Beach
@@ -121,6 +123,8 @@ As I said, we did not make time to photograph Diamond Beach, but the optimal tim
 For the last leg of our trip, we stayed near the town of [Vík í Mýrdal](https://guidetoiceland.is/travel-iceland/drive/vik-i-myrdal); Vík for short. Being a three-hour drive from the airport on roads that are generally better maintained, Vík was a safer place to stay to ensure we wouldn't miss our late-afternoon flights on the last day of our Iceland trip.
 
 Unfortunately, our time in the area was mostly marked by rather cloudy and grey weather, so we didn't have a chance to shoot in the best conditions. Furthermore, the stormy weather (which was kinda cool to look at, not gonna lie) meant we had to stay relatively close to the car to avoid getting hailed on and/or blown away by wind.
+
+Our accommodations in Vík were the **[Black Beach Suites](https://blackbeachsuites.is/)**.
 
 ### Skógafoss
 
@@ -160,13 +164,13 @@ The [Icelandic Met Office](https://en.vedur.is/weather/forecasts/cloudcover/) ca
 
 `class:full`![Aurora over Vestrahorn reflecting onto the wet sand](images/blog/iceland-road-trip/vestrahorn-aurora-3840.webp)
 
-`class:caption`f/2.8, 8.0 seconds, ISO 4000
+`class:caption`f/2.8, 8.0 seconds, ISO 4000 on a Nikon D850 + Zeiss Milvus 18mm f/2.8 ZF.2
 
 Once the aurora shows up, it's time to shoot! Have your lens set on the widest aperture, and remember, aperture is expressed as a fraction, so you'll want the lower number for the maximum aperture (e.g. f/2.8 is higher than f/11). Shutter speed should be set to taste; faster speeds will offer more defined shapes in the aurora but will also require more compensation, and more noise, from the ISO side.
 
 ## What to bring
 
-Iceland is a cold, cold country, especially in the winter, and you shouldn't show up without the right gear, and you should budget extra money on gear if you don't already own anything suitable. The usual winter temperature will be just below freezing, but it could go down to -40˚C/-40˚F on very cold and windy nights. Winds can reach nearly 200 kph (125 mph) when massive Atlantic storms slam directly into the island.
+Iceland is a cold, cold country, especially in the winter, and you shouldn't show up without the right gear, and you should budget extra money on gear if you don't already own anything suitable. The usual winter temperature will be just below freezing, but it could go down to -40˚C/-40˚F on very cold and windy nights. Winds can reach nearly 200 kph (125 mph) when the frequent and massive Atlantic storms slam directly into the island.
 
 * **Warm winter clothes:** This goes without saying. Think a hard shell, a very warm down jacket, overall weatherproof clothes (jacket, pants, gloves). Among others, I have a [Patagonia Fitz Roy](https://www.patagonia.com/product/mens-fitz-roy-down-hoody/85500.html) down hoody.
 * **Footwear:** You may want to bring moderately warm hiking boots for longer hikes, but you should also bring a proper pair of winter boots, especially if you're planning on standing on the beach shooting Vestrahorn. Hiking boots most likely won't keep you warm if you're standing in the cold for hours. I have a pair of [Arctic Sport Mid Muck Boots](https://www.muckbootcompany.com/mk-artic-sprt-mid/ASM000A.html).
@@ -176,8 +180,18 @@ Iceland is a cold, cold country, especially in the winter, and you shouldn't sho
 
 ## Safety
 
-Now, driving around Iceland in the deep of winter is probably not for everyone. You will be driving icy roads in a shitty rental car with barely legal tires, with 200 kph (125 mph) swinging your vehicle around, for several hundred kilometres, sometimes with barely any visibility. There will be snowdrifts where you can get stuck, and if you end up in a ditch like _many_ visitors and locals alike do, you may end up having to pay several hundred dollars and wait several hours for a tow.
+Now, driving around Iceland in the deep of winter is probably not for everyone. You will be driving icy roads in a shitty rental car with barely legal tires, with 200 kph (125 mph) swinging your vehicle around, for several hundred kilometres, sometimes with barely any visibility. There will be snowdrifts where you can get stuck, and if you end up in a ditch like _many_ visitors and locals alike do, you may end up having to pay several hundred dollars and wait many hours for a tow.
 
 I drove because I grew up in some regions of Canada that can be pretty extreme in the winter, and Iceland pushed me to my limits, and I'd be lying if I said there wasn't some element of luck that got us through all of this.
 
 If you're not absolutely confident in your abilities to drive in those conditions, I recommend you either join an existing tour, or you visit Iceland another time. For example, you can visit in September when the country is still mostly clear of snow and you can still see the aurora without having to deal with winter conditions.
+
+## Conclusion
+
+Iceland is a vast country with very dynamic landscapes. Photo opportunities abound and you'll rarely be able to cover everything within a single one or even two-week trip. I recommend visiting again and again in the summer, autumn, and winter. The country is extremely safe to travel (basic precautions should always be taken) and driving the ring road is a breeze. If you're planning to stay in hotels/cabins, it's a very good idea to plan ahead since availability can be very limited.
+
+And as you travel around Iceland, or anywhere, please be respectful of the people who actually live there; it's very easy to get amazing shots without having to step into restricted areas.
+
+`class:image`![Sunset at Vestrahorn](images/blog/iceland-road-trip/vestrahorn-sunset-1800.webp)
+
+`class:caption`The sun sets on Vestrahorn in southeastern Iceland.
