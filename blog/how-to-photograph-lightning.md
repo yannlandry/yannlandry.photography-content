@@ -23,6 +23,10 @@ Nonetheless, should you decide to chase and photograph at your own risk, while I
 * **On distance:** I'm not 100% clear on this, but it seems a minimum distance of at least 10 to 15 km (6 to 9 miles) from the lightning is recommended. Again, this is not perfect science, and lightning can easily travel over 20 km (12 miles) from the thunderstorm. We've had close calls.
 * **On lightning protection:** In the middle of a deserted field, with lightning around, the safest place is _in your car_. This is physics; while rubber tires will absolutely not stop a bolt from going into the ground, the metal frame of a vehicle acts as a [Faraday cage](https://en.wikipedia.org/wiki/Faraday_cage) and should protect you from a strike in the vast majority of cases.
 
+`class:image`![Chasing storms in Texas](images/blog/how-to-photograph-lightning/chasing-1800.webp)
+
+`class:caption`Punching through an active tornado zone in Texas. Several areas of rotation on radar.
+
 ## Shooting with an intervalometer and ND filters
 
 The premise here is that the more your shutter stays open, the more likely you are to capture any eventual bolt. Many photographers will leave the camera on a tripod to capture hundreds of consecutive images in the hopes that their shutter will happen to be open when the bolt strikes. This is hugely wasteful for data storage and for the life of your shutter, but it's the most basic method and its success rate is pretty easy to calculate. Essentially, the percentage of time your shutter is open is the percentage of bolts you'll get.
